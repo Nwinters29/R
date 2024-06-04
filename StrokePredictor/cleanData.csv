@@ -1,0 +1,5111 @@
+age_group,bmi_group,glucose_group,hypertension,heart_disease,stroke
+65-75y,class II obesity,Diabetic,0,1,1
+46-64y,NA,Diabetic,0,0,1
+76+,class I obesity,Normal,0,1,1
+46-64y,class I obesity,Prediabetic,0,0,1
+76+,normal,Prediabetic,1,0,1
+76+,overweight,Prediabetic,0,0,1
+65-75y,overweight,Normal,1,1,1
+65-75y,normal,Normal,0,0,1
+46-64y,NA,Normal,0,0,1
+76+,normal,Normal,0,0,1
+76+,overweight,Normal,1,0,1
+46-64y,class II obesity,Normal,0,1,1
+46-64y,overweight,Normal,0,0,1
+76+,NA,Diabetic,0,1,1
+76+,overweight,Diabetic,0,1,1
+46-64y,class I obesity,Prediabetic,1,0,1
+46-64y,class II obesity,Prediabetic,0,1,1
+65-75y,overweight,Diabetic,1,0,1
+46-64y,class II obesity,Normal,0,0,1
+46-64y,NA,Diabetic,0,1,1
+65-75y,normal,Prediabetic,0,0,1
+46-64y,class III obesity,Diabetic,1,0,1
+76+,overweight,Diabetic,0,0,1
+76+,class I obesity,Diabetic,0,1,1
+65-75y,overweight,Normal,0,0,1
+76+,normal,Normal,0,0,1
+65-75y,overweight,Normal,0,0,1
+46-64y,NA,Prediabetic,0,0,1
+65-75y,overweight,Prediabetic,0,1,1
+46-64y,NA,Diabetic,0,0,1
+46-64y,class III obesity,Diabetic,1,0,1
+19-45y,overweight,Normal,0,0,1
+76+,normal,Prediabetic,1,0,1
+76+,class I obesity,Diabetic,0,1,1
+46-64y,overweight,Normal,0,0,1
+76+,overweight,Normal,1,1,1
+65-75y,class I obesity,Diabetic,0,0,1
+65-75y,normal,Normal,1,0,1
+46-64y,class I obesity,Normal,0,0,1
+46-64y,overweight,Normal,0,0,1
+76+,normal,Normal,0,0,1
+46-64y,overweight,Normal,0,0,1
+76+,overweight,Prediabetic,0,1,1
+46-64y,NA,Normal,0,0,1
+46-64y,normal,Diabetic,1,0,1
+76+,class I obesity,Diabetic,1,0,1
+65-75y,NA,Normal,0,1,1
+46-64y,class II obesity,Normal,0,0,1
+76+,class I obesity,Normal,0,0,1
+19-45y,class II obesity,Normal,1,0,1
+76+,NA,Normal,0,0,1
+76+,NA,Normal,1,0,1
+76+,overweight,Normal,0,1,1
+76+,class I obesity,Normal,1,0,1
+46-64y,NA,Prediabetic,0,0,1
+46-64y,class II obesity,Prediabetic,0,1,1
+76+,class I obesity,Normal,0,0,1
+76+,NA,Diabetic,0,0,1
+65-75y,class I obesity,Prediabetic,1,0,1
+46-64y,overweight,Prediabetic,1,0,1
+46-64y,class III obesity,Prediabetic,0,0,1
+76+,normal,Normal,1,0,1
+65-75y,overweight,Normal,1,0,1
+19-45y,class I obesity,Normal,0,0,1
+65-75y,NA,Normal,0,0,1
+76+,normal,Normal,1,0,1
+65-75y,class III obesity,Diabetic,0,0,1
+76+,normal,Normal,0,0,1
+46-64y,class I obesity,Normal,0,0,1
+76+,overweight,Normal,1,0,1
+76+,NA,Normal,0,0,1
+65-75y,overweight,Prediabetic,1,0,1
+65-75y,class I obesity,Normal,1,0,1
+46-64y,overweight,Diabetic,0,0,1
+46-64y,overweight,Normal,0,0,1
+76+,normal,Normal,0,1,1
+76+,overweight,Diabetic,1,0,1
+76+,normal,Normal,0,0,1
+46-64y,NA,Prediabetic,0,0,1
+19-45y,class III obesity,Prediabetic,0,0,1
+46-64y,class III obesity,Normal,0,0,1
+65-75y,NA,Normal,0,0,1
+76+,normal,Normal,0,0,1
+65-75y,overweight,Normal,1,0,1
+46-64y,NA,Normal,0,0,1
+46-64y,overweight,Normal,0,0,1
+46-64y,overweight,Normal,0,1,1
+65-75y,class I obesity,Normal,0,1,1
+46-64y,class III obesity,Normal,0,0,1
+65-75y,overweight,Normal,0,0,1
+76+,overweight,Diabetic,0,1,1
+76+,overweight,Normal,0,0,1
+46-64y,class II obesity,Normal,0,0,1
+76+,overweight,Normal,1,0,1
+19-45y,overweight,Normal,0,0,1
+76+,class I obesity,Diabetic,0,0,1
+65-75y,normal,Normal,0,0,1
+46-64y,class I obesity,Diabetic,0,1,1
+46-64y,overweight,Normal,1,0,1
+65-75y,overweight,Normal,0,0,1
+46-64y,overweight,Normal,0,1,1
+76+,class I obesity,Prediabetic,0,0,1
+65-75y,class I obesity,Diabetic,0,0,1
+76+,normal,Normal,0,1,1
+46-64y,overweight,Normal,0,0,1
+46-64y,NA,Normal,0,0,1
+46-64y,class I obesity,Normal,1,0,1
+46-64y,class III obesity,Prediabetic,0,0,1
+76+,normal,Normal,0,0,1
+46-64y,class III obesity,Normal,0,0,1
+76+,normal,Normal,0,1,1
+76+,normal,Normal,0,1,1
+76+,NA,Normal,0,0,1
+19-45y,class III obesity,Diabetic,0,0,1
+65-75y,overweight,Normal,0,0,1
+65-75y,class I obesity,Diabetic,1,1,1
+46-64y,overweight,Normal,1,0,1
+65-75y,class I obesity,Normal,0,0,1
+19-45y,normal,Normal,0,0,1
+76+,class I obesity,Normal,0,0,1
+46-64y,overweight,Normal,0,0,1
+46-64y,class I obesity,Normal,1,0,1
+76+,class I obesity,Diabetic,0,0,1
+46-64y,class II obesity,Diabetic,1,0,1
+65-75y,NA,Diabetic,0,0,1
+65-75y,overweight,Normal,0,0,1
+76+,NA,Normal,1,0,1
+76+,normal,Normal,0,0,1
+76+,overweight,Diabetic,0,0,1
+65-75y,NA,Normal,0,0,1
+65-75y,class II obesity,Prediabetic,1,0,1
+76+,normal,Normal,1,0,1
+65-75y,class II obesity,Prediabetic,1,0,1
+19-45y,NA,Normal,0,0,1
+65-75y,overweight,Diabetic,1,0,1
+65-75y,class II obesity,Diabetic,0,0,1
+76+,overweight,Prediabetic,0,0,1
+76+,class I obesity,Diabetic,0,0,1
+76+,overweight,Prediabetic,1,0,1
+65-75y,overweight,Prediabetic,0,0,1
+76+,overweight,Normal,0,1,1
+46-64y,normal,Normal,0,0,1
+65-75y,normal,Normal,1,0,1
+65-75y,class II obesity,Normal,1,1,1
+65-75y,class I obesity,Diabetic,1,0,1
+65-75y,overweight,Prediabetic,0,0,1
+65-75y,NA,Normal,0,0,1
+76+,normal,Normal,0,0,1
+46-64y,class I obesity,Normal,1,0,1
+65-75y,overweight,Diabetic,0,1,1
+76+,NA,Prediabetic,0,0,1
+65-75y,class I obesity,Diabetic,0,1,1
+76+,class I obesity,Normal,0,0,1
+65-75y,overweight,Normal,0,0,1
+46-64y,overweight,Normal,0,0,1
+76+,class II obesity,Diabetic,0,1,1
+46-64y,class I obesity,Normal,0,0,1
+46-64y,class II obesity,Diabetic,0,0,1
+65-75y,class I obesity,Prediabetic,0,0,1
+76+,overweight,Normal,1,0,1
+76+,NA,Normal,0,0,1
+65-75y,NA,Normal,0,1,1
+0-5y,NA,Normal,0,0,1
+76+,class III obesity,Diabetic,1,0,1
+65-75y,class I obesity,Normal,1,0,1
+76+,normal,Normal,0,0,1
+46-64y,overweight,Prediabetic,0,0,1
+76+,NA,Normal,1,0,1
+76+,normal,Normal,1,0,1
+76+,class I obesity,Normal,0,0,1
+46-64y,NA,Normal,0,0,1
+76+,NA,Normal,1,1,1
+46-64y,overweight,Normal,0,0,1
+76+,class I obesity,Normal,1,0,1
+76+,NA,Normal,0,0,1
+65-75y,class II obesity,Prediabetic,1,0,1
+76+,class III obesity,Normal,0,0,1
+76+,overweight,Normal,1,0,1
+76+,NA,Normal,0,0,1
+76+,overweight,Diabetic,0,0,1
+46-64y,class I obesity,Normal,0,0,1
+46-64y,class I obesity,Normal,0,0,1
+19-45y,overweight,Normal,0,0,1
+76+,NA,Normal,0,0,1
+46-64y,class II obesity,Normal,1,1,1
+46-64y,class I obesity,Normal,0,0,1
+46-64y,class I obesity,Normal,0,1,1
+76+,overweight,Diabetic,1,1,1
+76+,overweight,Normal,0,0,1
+46-64y,NA,Diabetic,0,1,1
+65-75y,class III obesity,Diabetic,0,0,1
+46-64y,class III obesity,Normal,1,0,1
+46-64y,class II obesity,Normal,0,0,1
+65-75y,class I obesity,Diabetic,1,1,1
+65-75y,overweight,Normal,0,0,1
+46-64y,class II obesity,Diabetic,0,0,1
+65-75y,class III obesity,Diabetic,1,0,1
+65-75y,overweight,Normal,0,0,1
+76+,NA,Normal,0,0,1
+65-75y,overweight,Normal,0,0,1
+65-75y,NA,Prediabetic,0,0,1
+76+,class I obesity,Prediabetic,1,1,1
+76+,class I obesity,Normal,0,0,1
+76+,class I obesity,Normal,0,0,1
+46-64y,class I obesity,Normal,0,0,1
+76+,class I obesity,Normal,0,0,1
+76+,normal,Normal,0,0,1
+76+,overweight,Normal,0,0,1
+76+,class I obesity,Normal,1,0,1
+46-64y,normal,Normal,0,0,1
+19-45y,overweight,Normal,0,0,1
+46-64y,overweight,Normal,0,0,1
+46-64y,class I obesity,Diabetic,0,0,1
+46-64y,normal,Normal,0,0,1
+76+,normal,Normal,0,0,1
+76+,class I obesity,Diabetic,0,1,1
+76+,overweight,Normal,0,0,1
+46-64y,class III obesity,Diabetic,1,1,1
+76+,NA,Prediabetic,1,1,1
+65-75y,overweight,Diabetic,0,1,1
+76+,overweight,Diabetic,1,1,1
+76+,overweight,Normal,0,0,1
+46-64y,class III obesity,Diabetic,0,0,1
+76+,overweight,Normal,0,0,1
+46-64y,class I obesity,Normal,0,0,1
+46-64y,class I obesity,Diabetic,0,1,1
+76+,overweight,Prediabetic,0,0,1
+65-75y,NA,Normal,0,0,1
+19-45y,overweight,Normal,0,0,1
+76+,class II obesity,Normal,1,0,1
+76+,underweight,Normal,0,0,1
+76+,normal,Normal,0,0,1
+65-75y,class I obesity,Normal,0,0,1
+76+,overweight,Prediabetic,1,0,1
+76+,overweight,Diabetic,0,0,1
+65-75y,class II obesity,Diabetic,0,0,1
+46-64y,class I obesity,Normal,0,0,1
+76+,class I obesity,Prediabetic,0,0,1
+46-64y,overweight,Normal,1,0,1
+46-64y,class II obesity,Normal,0,1,1
+65-75y,normal,Normal,0,0,1
+46-64y,class I obesity,Prediabetic,0,0,1
+65-75y,class III obesity,Diabetic,0,0,1
+65-75y,class III obesity,Diabetic,1,1,1
+46-64y,class II obesity,Normal,0,0,1
+6-18y,class I obesity,Normal,0,0,1
+65-75y,overweight,Normal,0,0,1
+65-75y,NA,Normal,1,0,1
+76+,normal,Normal,0,0,1
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+46-64y,underweight,Normal,0,0,0
+65-75y,overweight,Diabetic,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class III obesity,Diabetic,1,0,0
+76+,class II obesity,Normal,0,0,0
+76+,normal,Normal,0,1,0
+19-45y,class II obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+65-75y,class III obesity,Normal,1,0,0
+46-64y,class III obesity,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class II obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,1,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+46-64y,class I obesity,Normal,0,1,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+76+,class I obesity,Prediabetic,1,0,0
+19-45y,overweight,Diabetic,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Diabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,NA,Normal,0,1,0
+46-64y,class I obesity,Diabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,1,1,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Diabetic,1,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,NA,Diabetic,1,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,1,1,0
+0-5y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Diabetic,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,1,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,normal,Normal,0,1,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Prediabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+46-64y,class III obesity,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+46-64y,NA,Normal,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,1,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,1,0
+19-45y,class III obesity,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,1,0,0
+19-45y,overweight,Diabetic,1,0,0
+19-45y,overweight,Prediabetic,1,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,NA,Prediabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,NA,Prediabetic,1,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class III obesity,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+0-5y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,overweight,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Prediabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+76+,class II obesity,Prediabetic,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,1,0
+0-5y,underweight,Normal,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Diabetic,0,0,0
+46-64y,overweight,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+65-75y,class I obesity,Prediabetic,0,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,normal,Diabetic,0,0,0
+46-64y,class I obesity,Diabetic,1,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Prediabetic,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+76+,overweight,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+65-75y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+76+,normal,Normal,0,1,0
+19-45y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+76+,class II obesity,Normal,1,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,NA,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,NA,Normal,0,1,0
+6-18y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,NA,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,class III obesity,Prediabetic,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,NA,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,1,0,0
+46-64y,class I obesity,Normal,0,1,0
+19-45y,class III obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+76+,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,overweight,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,normal,Diabetic,0,1,0
+46-64y,class II obesity,Normal,1,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+76+,class II obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Diabetic,1,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,1,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,NA,Prediabetic,0,1,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+6-18y,NA,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,NA,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+6-18y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,normal,Normal,0,1,0
+76+,class I obesity,Normal,1,1,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,1,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,1,0
+65-75y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+65-75y,class I obesity,Diabetic,0,1,0
+76+,overweight,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,1,0
+65-75y,class III obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,underweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+19-45y,NA,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Prediabetic,1,1,0
+65-75y,class II obesity,Prediabetic,0,1,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,normal,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,1,1,0
+46-64y,normal,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+46-64y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+76+,overweight,Normal,0,1,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,1,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+76+,class I obesity,Normal,1,1,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Diabetic,1,1,0
+76+,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,normal,Diabetic,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,NA,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,NA,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+6-18y,NA,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,overweight,Prediabetic,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+65-75y,NA,Normal,1,0,0
+76+,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,1,0,0
+65-75y,class II obesity,Diabetic,1,1,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,1,0
+0-5y,NA,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,normal,Normal,0,1,0
+46-64y,class I obesity,Normal,1,0,0
+76+,class II obesity,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,class III obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+46-64y,NA,Diabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,overweight,Prediabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,class III obesity,Normal,1,0,0
+65-75y,NA,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,1,0,0
+0-5y,underweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,NA,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,1,0
+46-64y,class III obesity,Prediabetic,1,1,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,normal,Normal,0,1,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,NA,Normal,1,0,0
+65-75y,overweight,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,class II obesity,Normal,0,0,0
+0-5y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,NA,Diabetic,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,NA,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,class I obesity,Prediabetic,0,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+65-75y,class I obesity,Prediabetic,0,1,0
+46-64y,overweight,Prediabetic,0,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+76+,NA,Normal,0,0,0
+76+,class I obesity,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,normal,Prediabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,NA,Normal,0,0,0
+76+,class I obesity,Prediabetic,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,normal,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,NA,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class II obesity,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+0-5y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+19-45y,normal,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Diabetic,1,1,0
+19-45y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,class I obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+65-75y,overweight,Normal,0,1,0
+76+,class I obesity,Diabetic,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,0,1,0
+65-75y,overweight,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,underweight,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,NA,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,NA,Prediabetic,1,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+6-18y,NA,Normal,0,0,0
+65-75y,class I obesity,Diabetic,1,0,0
+46-64y,class III obesity,Normal,1,0,0
+76+,class I obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+65-75y,normal,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,1,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Diabetic,1,1,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,NA,Diabetic,1,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,1,0
+6-18y,overweight,Diabetic,0,0,0
+6-18y,class I obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Diabetic,0,1,0
+65-75y,class II obesity,Normal,0,1,0
+19-45y,NA,Normal,0,0,0
+76+,class III obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,NA,Normal,1,0,0
+46-64y,class I obesity,Prediabetic,0,1,0
+0-5y,underweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,1,1,0
+76+,class I obesity,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+6-18y,class III obesity,Prediabetic,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,normal,Prediabetic,1,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+19-45y,underweight,Diabetic,0,0,0
+46-64y,class I obesity,Diabetic,1,0,0
+65-75y,overweight,Diabetic,0,1,0
+19-45y,normal,Normal,0,0,0
+76+,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+76+,NA,Normal,0,1,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,NA,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,NA,Diabetic,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,1,0
+46-64y,class III obesity,Diabetic,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,1,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,NA,Normal,0,0,0
+19-45y,NA,Normal,0,1,0
+65-75y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,overweight,Prediabetic,0,0,0
+65-75y,NA,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,class II obesity,Prediabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,NA,Prediabetic,0,1,0
+19-45y,NA,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+65-75y,NA,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,class III obesity,Diabetic,1,1,0
+65-75y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,1,1,0
+65-75y,NA,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Diabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+76+,class I obesity,Normal,1,0,0
+0-5y,normal,Normal,0,0,0
+76+,overweight,Diabetic,1,0,0
+19-45y,NA,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,normal,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,underweight,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,NA,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Diabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+46-64y,overweight,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,1,0
+19-45y,NA,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Normal,1,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+6-18y,overweight,Diabetic,0,0,0
+76+,class II obesity,Normal,1,0,0
+76+,overweight,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Prediabetic,1,1,0
+6-18y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,NA,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,1,1,0
+46-64y,overweight,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+76+,normal,Diabetic,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Diabetic,0,0,0
+46-64y,class II obesity,Diabetic,0,1,0
+19-45y,NA,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+19-45y,normal,Diabetic,0,0,0
+76+,NA,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,NA,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+65-75y,underweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+65-75y,overweight,Normal,0,1,0
+46-64y,class III obesity,Normal,0,1,0
+46-64y,class II obesity,Prediabetic,1,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,normal,Diabetic,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,1,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,NA,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+46-64y,NA,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,1,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class I obesity,Diabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+0-5y,NA,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+0-5y,underweight,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,1,0
+19-45y,class II obesity,Normal,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,1,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Prediabetic,1,1,0
+19-45y,NA,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+46-64y,NA,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Prediabetic,1,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+76+,normal,Normal,0,1,0
+46-64y,class III obesity,Normal,1,0,0
+6-18y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class III obesity,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class III obesity,Normal,1,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,1,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,1,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+76+,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,1,0
+6-18y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+76+,class I obesity,Normal,0,1,0
+46-64y,class I obesity,Normal,1,0,0
+76+,overweight,Normal,1,0,0
+6-18y,underweight,Normal,0,0,0
+76+,NA,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+65-75y,overweight,Prediabetic,0,1,0
+65-75y,overweight,Normal,0,1,0
+46-64y,class III obesity,Diabetic,0,0,0
+76+,overweight,Normal,0,1,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class III obesity,Prediabetic,0,0,0
+76+,overweight,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,NA,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Prediabetic,1,0,0
+46-64y,class II obesity,Normal,1,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,normal,Prediabetic,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,1,0
+65-75y,class II obesity,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,class I obesity,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+65-75y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,1,0
+46-64y,class III obesity,Prediabetic,1,0,0
+46-64y,NA,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+46-64y,normal,Prediabetic,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class III obesity,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,1,0,0
+65-75y,class II obesity,Normal,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+76+,NA,Normal,0,1,0
+46-64y,NA,Normal,1,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class III obesity,Prediabetic,0,1,0
+6-18y,underweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,normal,Prediabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,NA,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+65-75y,NA,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+65-75y,class II obesity,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+76+,normal,Normal,0,1,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Diabetic,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class III obesity,Prediabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,normal,Diabetic,0,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,class II obesity,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,1,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,overweight,Prediabetic,0,0,0
+76+,class I obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,class I obesity,Normal,1,1,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,normal,Diabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+65-75y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,class III obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,underweight,Prediabetic,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Diabetic,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,class I obesity,Diabetic,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+46-64y,overweight,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,NA,Normal,1,0,0
+6-18y,underweight,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+76+,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+76+,NA,Diabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,overweight,Normal,1,1,0
+6-18y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,NA,Normal,0,1,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,NA,Prediabetic,1,1,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Prediabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,1,0
+19-45y,class I obesity,Diabetic,0,0,0
+65-75y,overweight,Normal,0,1,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Diabetic,1,1,0
+76+,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,overweight,Prediabetic,0,1,0
+19-45y,underweight,Normal,0,0,0
+65-75y,NA,Normal,1,0,0
+6-18y,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,NA,Diabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+76+,NA,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class II obesity,Diabetic,0,1,0
+65-75y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class II obesity,Diabetic,1,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+76+,normal,Normal,0,1,0
+76+,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,NA,Normal,0,0,0
+65-75y,overweight,Diabetic,0,1,0
+76+,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Prediabetic,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+76+,class I obesity,Normal,0,0,0
+65-75y,underweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class III obesity,Normal,0,1,0
+76+,normal,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+76+,normal,Prediabetic,0,1,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class III obesity,Normal,1,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,overweight,Prediabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,underweight,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class I obesity,Diabetic,1,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+19-45y,class III obesity,Prediabetic,1,0,0
+0-5y,underweight,Normal,0,0,0
+76+,class II obesity,Diabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+76+,overweight,Prediabetic,1,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,normal,Diabetic,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,NA,Diabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,1,1,0
+46-64y,class I obesity,Prediabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+65-75y,class II obesity,Normal,1,1,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+6-18y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,overweight,Prediabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+6-18y,normal,Prediabetic,0,0,0
+46-64y,class I obesity,Prediabetic,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,NA,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Prediabetic,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,NA,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,NA,Diabetic,1,0,0
+46-64y,class II obesity,Normal,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,NA,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+46-64y,class I obesity,Normal,0,1,0
+0-5y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,NA,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+46-64y,class I obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+0-5y,normal,Prediabetic,0,0,0
+19-45y,NA,Normal,1,0,0
+19-45y,overweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+46-64y,overweight,Normal,1,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,NA,Prediabetic,1,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class I obesity,Prediabetic,0,0,0
+65-75y,NA,Diabetic,1,1,0
+76+,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,NA,Normal,1,0,0
+76+,class I obesity,Diabetic,0,1,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+65-75y,overweight,Normal,0,1,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class III obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,NA,Normal,0,1,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,overweight,Normal,1,1,0
+46-64y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+46-64y,NA,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,1,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,class II obesity,Diabetic,0,1,0
+65-75y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+46-64y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,1,1,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,1,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,normal,Prediabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+65-75y,NA,Diabetic,0,0,0
+46-64y,class I obesity,Normal,1,1,0
+65-75y,overweight,Prediabetic,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,normal,Normal,1,0,0
+76+,overweight,Diabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+46-64y,class I obesity,Normal,1,1,0
+19-45y,normal,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+65-75y,class I obesity,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,NA,Diabetic,0,1,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,NA,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,class III obesity,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,normal,Prediabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+76+,overweight,Normal,0,0,0
+65-75y,NA,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+0-5y,overweight,Normal,0,1,0
+46-64y,class I obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,NA,Normal,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,1,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+76+,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+46-64y,class II obesity,Diabetic,1,1,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,NA,Prediabetic,0,0,0
+76+,overweight,Normal,1,1,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,underweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+76+,class I obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,NA,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,class I obesity,Prediabetic,1,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+19-45y,NA,Normal,1,0,0
+19-45y,overweight,Prediabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class I obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,normal,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Diabetic,1,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Diabetic,1,0,0
+6-18y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,NA,Prediabetic,0,0,0
+76+,NA,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,NA,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+65-75y,normal,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,normal,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+6-18y,class III obesity,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+46-64y,class II obesity,Diabetic,1,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+76+,class I obesity,Normal,0,1,0
+19-45y,NA,Normal,0,0,0
+65-75y,NA,Diabetic,0,0,0
+46-64y,NA,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+65-75y,overweight,Diabetic,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class III obesity,Diabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,1,0,0
+76+,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,normal,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+6-18y,overweight,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,1,0,0
+76+,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+76+,class I obesity,Prediabetic,1,0,0
+76+,class I obesity,Diabetic,1,1,0
+0-5y,underweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+65-75y,overweight,Normal,0,1,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,normal,Normal,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,1,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Diabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+46-64y,overweight,Diabetic,0,0,0
+19-45y,NA,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Prediabetic,1,0,0
+76+,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,1,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,overweight,Diabetic,1,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,normal,Normal,1,1,0
+76+,class I obesity,Normal,1,1,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,normal,Normal,1,0,0
+19-45y,overweight,Prediabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+76+,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,NA,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+65-75y,overweight,Normal,1,1,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Prediabetic,1,1,0
+76+,normal,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+65-75y,class II obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+76+,overweight,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Prediabetic,1,0,0
+6-18y,overweight,Prediabetic,0,0,0
+76+,overweight,Normal,0,1,0
+46-64y,NA,Normal,0,1,0
+46-64y,class I obesity,Normal,1,0,0
+76+,normal,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Diabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,underweight,Diabetic,1,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Prediabetic,0,0,0
+76+,class II obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,1,0,0
+19-45y,normal,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+76+,overweight,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+46-64y,class II obesity,Prediabetic,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,1,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class III obesity,Diabetic,1,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,1,1,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class II obesity,Diabetic,1,0,0
+65-75y,overweight,Diabetic,1,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+0-5y,NA,Prediabetic,0,0,0
+19-45y,class III obesity,Diabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Diabetic,0,1,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,1,0,0
+65-75y,overweight,Normal,1,0,0
+19-45y,NA,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,overweight,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class III obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+76+,class I obesity,Normal,1,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,normal,Normal,1,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,normal,Normal,0,1,0
+6-18y,NA,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,NA,Diabetic,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,NA,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,NA,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,NA,Diabetic,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+65-75y,normal,Prediabetic,1,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+76+,normal,Diabetic,1,1,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Diabetic,0,1,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+65-75y,class I obesity,Diabetic,0,1,0
+76+,class I obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+65-75y,class I obesity,Prediabetic,0,1,0
+46-64y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,1,0
+0-5y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,normal,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+46-64y,overweight,Normal,1,0,0
+6-18y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+19-45y,NA,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+76+,normal,Diabetic,1,1,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,1,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,normal,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,NA,Diabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,underweight,Prediabetic,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class III obesity,Prediabetic,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,NA,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,normal,Diabetic,1,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,NA,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,NA,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+19-45y,overweight,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,underweight,Prediabetic,0,0,0
+46-64y,class II obesity,Diabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Diabetic,1,1,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+0-5y,normal,Prediabetic,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,class II obesity,Prediabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+65-75y,NA,Diabetic,0,1,0
+65-75y,class I obesity,Prediabetic,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Diabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,1,0
+65-75y,overweight,Normal,0,1,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,1,0
+65-75y,class I obesity,Prediabetic,0,1,0
+6-18y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,overweight,Diabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Diabetic,0,1,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,class I obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Prediabetic,1,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+19-45y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,1,0
+6-18y,overweight,Normal,0,0,0
+76+,normal,Normal,1,1,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Normal,1,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+76+,NA,Diabetic,1,0,0
+65-75y,overweight,Normal,0,1,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,1,0
+76+,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Diabetic,0,0,0
+19-45y,NA,Normal,1,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+6-18y,class II obesity,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,underweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,NA,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,1,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,NA,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Diabetic,0,0,0
+6-18y,overweight,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,normal,Prediabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Diabetic,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,NA,Diabetic,1,0,0
+65-75y,class I obesity,Normal,1,1,0
+65-75y,class I obesity,Normal,0,0,0
+0-5y,NA,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,1,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class III obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,normal,Normal,1,0,0
+65-75y,class I obesity,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+76+,class I obesity,Diabetic,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class II obesity,Diabetic,1,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+76+,class I obesity,Normal,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,1,0,0
+65-75y,overweight,Diabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+76+,normal,Normal,1,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class III obesity,Prediabetic,0,1,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+76+,class II obesity,Prediabetic,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,normal,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,normal,Diabetic,1,1,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+65-75y,class III obesity,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+76+,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,1,0
+19-45y,normal,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,1,0,0
+6-18y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+65-75y,normal,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,1,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,class III obesity,Diabetic,0,0,0
+76+,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,NA,Normal,0,0,0
+76+,class I obesity,Normal,1,0,0
+65-75y,class I obesity,Diabetic,1,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+46-64y,overweight,Normal,0,1,0
+46-64y,normal,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,overweight,Normal,0,0,0
+76+,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Prediabetic,1,0,0
+76+,class III obesity,Diabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+46-64y,NA,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,1,0
+46-64y,class II obesity,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class III obesity,Prediabetic,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,1,0
+46-64y,class I obesity,Normal,0,1,0
+19-45y,overweight,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,1,1,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class II obesity,Diabetic,1,0,0
+65-75y,NA,Normal,0,1,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,overweight,Prediabetic,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class III obesity,Prediabetic,1,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+76+,class I obesity,Normal,1,1,0
+19-45y,normal,Normal,0,0,0
+0-5y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,class II obesity,Prediabetic,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,NA,Diabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,1,1,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class I obesity,Diabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Diabetic,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+76+,NA,Diabetic,1,1,0
+65-75y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Diabetic,1,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,1,0
+19-45y,class I obesity,Normal,0,1,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+76+,class I obesity,Diabetic,0,0,0
+6-18y,normal,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,NA,Normal,0,1,0
+6-18y,underweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+76+,class I obesity,Prediabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,overweight,Prediabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+76+,class II obesity,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Diabetic,0,0,0
+65-75y,class I obesity,Diabetic,1,0,0
+19-45y,normal,Prediabetic,0,0,0
+46-64y,class II obesity,Diabetic,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,overweight,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,NA,Diabetic,0,1,0
+46-64y,overweight,Normal,0,0,0
+6-18y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,normal,Normal,1,0,0
+76+,class I obesity,Diabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,overweight,Normal,1,1,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,1,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,overweight,Diabetic,1,0,0
+46-64y,overweight,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,1,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+76+,class I obesity,Diabetic,0,0,0
+76+,class II obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+0-5y,underweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,normal,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+6-18y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,1,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class III obesity,Diabetic,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,1,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,1,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,class I obesity,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+65-75y,NA,Diabetic,0,1,0
+46-64y,class I obesity,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,1,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+19-45y,class II obesity,Normal,1,0,0
+76+,class I obesity,Normal,0,0,0
+0-5y,NA,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,1,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,overweight,Prediabetic,1,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,NA,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class III obesity,Diabetic,1,0,0
+46-64y,overweight,Normal,0,0,0
+76+,class I obesity,Normal,0,0,0
+19-45y,class II obesity,Diabetic,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class II obesity,Prediabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+6-18y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class II obesity,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+76+,class I obesity,Diabetic,1,0,0
+19-45y,NA,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Diabetic,0,1,0
+46-64y,class I obesity,Prediabetic,1,0,0
+76+,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+65-75y,class I obesity,Diabetic,0,0,0
+65-75y,overweight,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+6-18y,class I obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class II obesity,Prediabetic,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Normal,0,1,0
+46-64y,class III obesity,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+65-75y,overweight,Diabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,underweight,Normal,0,0,0
+76+,overweight,Diabetic,0,0,0
+76+,overweight,Diabetic,0,0,0
+46-64y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,NA,Prediabetic,0,0,0
+19-45y,normal,Normal,0,0,0
+0-5y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+6-18y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+76+,overweight,Normal,0,0,0
+19-45y,class I obesity,Diabetic,0,0,0
+76+,class II obesity,Diabetic,0,0,0
+19-45y,overweight,Prediabetic,0,0,0
+65-75y,normal,Prediabetic,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+76+,normal,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+76+,class II obesity,Normal,0,0,0
+19-45y,class III obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class II obesity,Normal,0,0,0
+19-45y,normal,Prediabetic,0,0,0
+6-18y,normal,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,overweight,Normal,0,0,0
+46-64y,class III obesity,Normal,0,0,0
+19-45y,class II obesity,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+65-75y,overweight,Normal,0,0,0
+65-75y,class I obesity,Normal,0,0,0
+46-64y,normal,Prediabetic,0,0,0
+46-64y,class I obesity,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+0-5y,underweight,Normal,0,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,class I obesity,Normal,1,0,0
+76+,class II obesity,Normal,0,0,0
+19-45y,NA,Normal,1,0,0
+6-18y,normal,Normal,0,0,0
+0-5y,underweight,Normal,0,0,0
+46-64y,overweight,Normal,0,0,0
+65-75y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+19-45y,NA,Normal,0,0,0
+76+,overweight,Normal,1,0,0
+19-45y,normal,Normal,0,0,0
+46-64y,normal,Normal,0,0,0
+6-18y,class III obesity,Normal,0,0,0
+6-18y,underweight,Normal,0,0,0
+76+,NA,Normal,1,0,0
+76+,class III obesity,Normal,0,0,0
+19-45y,class I obesity,Normal,0,0,0
+46-64y,overweight,Prediabetic,0,0,0
+19-45y,overweight,Normal,0,0,0

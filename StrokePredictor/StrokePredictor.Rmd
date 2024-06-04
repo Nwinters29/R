@@ -1,0 +1,734 @@
+---
+title: "End-to-End MAchine Learning Project: Stroke Predictor"
+author: "Nickolas Winters"
+date: "2024-05-07"
+output:
+    html_document:
+     toc: true
+     toc_float: true
+---
+
+# Overview
+
+## The Problem
+
+According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, being responsible for approximately 11% of total deaths. This comes out to roughly six and a half-million deaths annually.
+
+It is also estimated that there are over 12.2 million new cases of strokes each year and that one in four people over 25 years of age will experience a stroke. 
+
+The ten leading factors, and there percent weight, that can increase the probability of a stroke are the following:
+
+1. Elevated systolic blood pressure (56%)
+2. High body mass index (24%)
+3. High fasting glucose (20%)
+4. Air pollution (20%)
+5. Smoking (18%)
+6. Poor diet (31%)
+7. High ldl cholesterol (10%)
+8. Kidney dysfunction (8%)
+9. Alcohol use (6%)
+10. Low physical activity (2%)
+
+Statistic source: [World Stoke Organization](https://www.world-stroke.org/assets/downloads/WSO_Global_Stroke_Fact_Sheet.pdf)
+
+This project aims to build and deploy a model that can predict whether or not a patient will have a stroke based on a variety of factors relating to patient data. This encompasses the patient's medical history, and demographic information. The deployment of such a model could result in successful preventive care by focusing medical attention on high risk patients.
+
+## The Dataset
+
+The dataset being used to build the prediction model comes from the open data source website [kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data). Below are a list of the attributes as depicted in the dataset and their description.
+
+- id: unique patient identifier
+- gender: patient's gender (male, female, other)
+- age: age of the patient
+- hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
+- heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease
+- ever_married: marrital status; "No" they have not been married or "Yes" they have been married
+- work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
+- Residence_type: "Rural" or "Urban"
+- avg_glucose_level: average glucose level in blood
+- bmi: body mass index
+- smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"
+- stroke: 1 if the patient had a stroke or 0 if not
+
+## Specific Machine Learning Task
+
+This specific model will utilize classification to predict the outcome variable (`stroke`). Classification was chosen because it deals with the prediction of categorical data (in this case the label being whether or not a patient will have a stroke or not). This model will also be considered supervised, due to the outcome variable being pre-labeled. This means that the data can be validated by the pre-existing defined stroke cases.
+
+## Metrics for Performance
+
+With classification being used, the means to evaluate the model would be through the use of the following metrics:
+
+- **Precision (specificity):** Addresses how accurate the model predicted that a patient has a stroke. 
+- **Recall (sensitivity):** Addresses how often the model correctly predicts that the patient has a stroke.
+- **Accuracy:** Overall how does the final predictions of the model compare to the actual outcomes.
+- **ROC_AUC:** Relationship between the true positive rate and the false positive rate.
+
+# Get the Data
+
+## Load packages
+
+Below are the packages being loaded to successfully conduct this machine learning project. The packages are in order of use and are broken up which step in the process they are being utilized.
+
+```{r, echo=TRUE, results='hide'}
+# Packages needed for data manipulation, visualization, model building, and model evaluation
+library(tidyverse)
+library(tidymodels)
+library(workflows)
+library(themis)
+library(tune)
+library(ranger)
+library(xgboost)
+library(kknn)
+```
+
+## Import the data
+
+The first step in this process is to import the data and assign it to an object for manipulation.
+```{r, echo=TRUE, results='hide'}
+# set working directory
+getwd()
+setwd("/Users/nickwinters/desktop/DS Projects")
+
+# assign csv file to an object
+strk <- read.csv("healthcare-dataset-stroke-data.csv")
+```
+
+# Data Exploration
+
+## Taking a peak at the data
+
+Before diving into building the model it would be beneficial to get acclimated with the data.
+```{r}
+# display the first five rows
+head(strk, 5)
+
+# size and type of data
+dim(strk)
+summary(strk)
+
+# lets specifically look at class of each column
+sapply(strk, class)
+
+# Lets check for any missing data
+sum(is.na(strk))
+```
+**Observation:** Above it is shown that the data is 12 columns by 5110 rows, and that the data is a mix of integers(4), floats(2), and characters(6). Interesting to note is that the age column is a float where the minimum value is 0.08, which could be indicative of babies having a reported age in months. Secondly, bmi--a numerical measurement--is classed as being a character. Finally, there are no apparent data entries that are categorized as missing. This lack of missing though is contradictive to what is seen when displaying the first five rows of data. In the `bmi` column, an "N/A" is shown. This means that there is missing data within the `bmi` column and that the reason this column is classed as being a charater is because of the presence of "N/A" strings. Also in the `smoking_status` column it is known that "Unknown" is being used to represent unavailable information. These issues will have to be addressed in the data manipulation phase. 
+
+# Data Manipulation
+
+It is now time to prep the data for machine learning. 
+
+## Addressing missing data
+
+First the unrepresented data will be correctly displayed as NA, and the total count of missing data will be computed.
+```{r}
+# address missing values ("N/A" was used for NA values)
+strk[strk == 'N/A'] <- NA
+strk[strk == 'Unknown'] <- NA
+
+#validate the above change
+sum(is.na(strk))
+```
+
+## Changing the Datatypes of Columns
+
+Next, because this is a classification task, the categorical variables must be converted to factors. This prevents the model from seeing "0s" and "1s" as numerical values but as representations of data. In addition, `bmi` will also be converted to a double or float data type.
+```{r}
+# Change datatypes
+strk <- transform(strk,
+                       bmi = as.double(bmi),
+                       gender = as.factor(gender),
+                       ever_married = as.factor(ever_married),
+                       work_type = as.factor(work_type),
+                       Residence_type = as.factor(Residence_type),
+                       smoking_status = as.factor(smoking_status),
+                       hypertension = as.factor(hypertension),
+                       heart_disease = as.factor(heart_disease),
+                       stroke = as.factor(stroke))
+
+# validate the above change
+sapply(strk, class)
+```
+
+## Binning Data
+
+To both simplify the model and address any outliers present in the data, the `age`, `bmi`, and `avg_glucose_level` columns will be binned and ordered into classes based on common segmentation for disease analysis.
+
+Sources used for choosing the classes:
+
+- [age segmentation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3475622/)
+- [bmi segmentation](https://my.clevelandclinic.org/health/articles/9464-body-mass-index-bmi)
+- [glucose segmentation](https://www.diabetes.co.uk/diabetes_care/blood-sugar-level-ranges.html#google_vignette)
+```{r}
+# bin data into appropriate groupings
+strk <- strk |> 
+  mutate(age_group = cut(age, 
+                         breaks = c(0, 6, 19, 46, 65, 76, 100),
+                         labels = c('0-5y', '6-18y', '19-45y', '46-64y', '65-75y', '76+'),
+                         include.lowest = T, 
+                         right = F,
+                         ordered_result = T),
+         bmi_group = cut(bmi,
+                         breaks = c(0, 19, 25, 30, 35, 40, 100),
+                         labels = c("underweight", "normal", "overweight", "class I obesity", "class II obesity", "class III obesity"),
+                         include.lowest = T,
+                         right = F,
+                         ordered_result = T),
+         glucose_group = cut(avg_glucose_level,
+                             breaks = c(0, 140, 200, 300),
+                             labels = c("Normal", "Prediabetic", "Diabetic"),
+                             include.lowest = T,
+                             right = F,
+                             ordered_result = T)
+         )
+```
+
+Once the values have been binned now, the new column's attributes will be validated.
+```{r}
+# validate the bins
+strk |> 
+  select(age, age_group, bmi, bmi_group, avg_glucose_level, glucose_group) |> 
+  head()
+
+# check order
+is.ordered(strk$age_group)
+levels(strk$age_group)
+
+is.ordered(strk$bmi_group)
+levels(strk$bmi_group)
+
+is.ordered(strk$glucose_group)
+levels(strk$glucose_group)
+```
+
+# Data Visualization {.tabset}
+
+Now that the data has been appropriately transformed, it will now be visually explored to gain insights into what features seem to be the most important for determining whether a patient may or may not have a stroke. Based on these insights features of un-importance will be dropped from the data.
+
+## stroke
+
+The outcome variable was graphed to get a sense of the distribution between patients that have had a stroke versus those who have never had a stroke.
+```{r}
+strk |> 
+  ggplot(aes(x = stroke, fill = stroke)) +
+  geom_bar()
+```
+
+**Observation:** Within the data the patients that have never had a stroke severely outnumber patients that have had a stroke. This class imbalance will have to be addressed in order to prevent the model from prioritising accuracy by biasing the negative outcome.
+
+## gender
+```{r}
+strk |> 
+  ggplot(aes(x = gender, fill = stroke)) +
+  geom_bar(position = "fill")
+```
+
+**Observation:** Stroke incidents are relatively the same between males and females; therefore, gender must not play a significant role for stroke prediction.
+
+## age
+```{r}
+strk |> 
+  ggplot(aes(x = age_group, fill = stroke)) +
+  geom_bar(position = "fill")
+```
+
+**Observation:** A clear trend is shown that demonstrates that as age increases cases of stroke also increase; therefore, age must play a significant role in stroke prediction.
+
+## hypertension
+```{r}
+strk |> 
+  ggplot(aes(x = hypertension, fill = stroke)) +
+  geom_bar(position = "fill")
+```
+
+**Observation:** Cases of stroke appear more heavily in the hypertension group; therefore, hypertension must play a significant role in stroke detection. This is also supported by the WSO reporting that high blood pressure is a leading cause of stroke.
+
+## heart_disease
+```{r}
+strk |> 
+  ggplot(aes(x = heart_disease, fill = stroke)) +
+  geom_bar(position = "fill")
+```
+
+**Observation:** Cases of stroke appear more heavily in the heart disease group; therefore, heart disease must play a significant role in stroke detection. 
+
+## ever_married
+```{r}
+strk |> 
+  ggplot(aes(x = ever_married, fill = stroke)) +
+  geom_bar(position = "fill")
+
+strk |> 
+  ggplot(aes(x = ever_married, fill = age_group)) +
+  geom_bar(position = "fill") +
+  facet_wrap(~stroke)
+```
+
+**Observation:** Stroke incidents are close in count between the "No" and "Yes" groups, with the latter having more counts. This is likely due to more younger individuals being present in the "No" group whereas the more at risk older individuals would be present in the "Yes" group. Marital status must not play a significant role for stroke prediction, likley because age is a prominent factor.
+
+## work_type
+```{r}
+strk |> 
+  ggplot(aes(x = work_type, fill = stroke)) +
+  geom_bar(position = "fill")
+```
+
+**Observation:** Stroke incidents are more prevalent in groups that are employed, with self-employment having the highest counts. Just like with `ever_married`, `work_type` is likely also related to age, so to avoid the potntail of covariance, work_type will likley be left out of the model. 
+
+## Residence_type
+```{r}
+strk |> 
+  ggplot(aes(x = Residence_type, fill = stroke)) +
+  geom_bar(position = "fill")
+```
+
+**Observation:** Stroke incidents are relatively the same between Rural and Urban; therefore, residence must not play a significant role for stroke prediction.
+
+## avg_glucose_level
+```{r}
+strk |> 
+  ggplot(aes(x = glucose_group, fill = stroke)) +
+  geom_bar(position = "fill")
+```
+
+**Observation:** A clear trend is shown that demonstrates that as glucose levels increase, cases of stroke also increase; therefore, glucose levels must play a significant role in stroke prediction. This is also supported by the WSO reporting that high fasted glucose levels is a leading cause of stroke.
+
+## bmi
+```{r}
+strk |> 
+  filter(!is.na(bmi_group)) |> 
+  ggplot(aes(x = bmi_group, fill = stroke)) +
+    geom_bar(position = "fill")
+
+strk |> 
+  ggplot(aes(x = bmi_group, fill = stroke)) +
+    geom_bar(position = "fill")
+```
+
+**Observation:** Stroke cases are the most prevalent among higher weight classed individuals, with the highest cases occurring in the overweight and class I obese groups. BMI likely plays a role in stroke detection, and this is supported by the WSO reporting that BMI is a leading cause of stroke. It is important to note that when also graphing the missing values, this group had by far the highest stroke cases. 
+
+## smoking_status
+```{r}
+strk |> 
+  ggplot(aes(x = smoking_status, fill = stroke)) +
+  geom_bar(position = "fill")
+```
+
+**Observation:** Looking specifically at the never smoked and smokes groupings, both displayed similar cases of stroke. The formerly smoked had the highest stroke cases. Despite the WSO reporting that smoking is a leading cause this data because the same counts between the oppoosite groups and the large presence of missing data (~1700), to simplify the model smoking status will be omitted. 
+
+# Feature Selection
+
+Based on the data exploration above it appears that age, bmi, glucose levels, hypertension, and heart disease have the most significant impact on cases when a stroke occurred. For this reason, each respective column will be selected as features for the model. 
+```{r}
+clean_strk <- strk |> 
+  select(age_group, 
+         bmi_group,
+         glucose_group,
+         hypertension, 
+         heart_disease,
+         stroke)
+```
+
+# Building the prediction model
+
+## Splitting the data
+
+One of the most important steps in the machine learning process involves splitting the data into a training set and a test set. This is done where the model is created and trained using the training set, and then it is evaluated on the test set. This is implemented to determine how well the model generalizes with new data.
+
+It is common practice to allocate 80% of the data to training and 20% of the data to testing.
+```{r}
+# set random seed for replication
+set.seed(42)
+
+# split the data into training(80%) and testing (20%)
+strk_split <- initial_split(clean_strk, 
+                            prop = 4/5)
+strk_split
+
+# extracting training and test sets
+train <- training(strk_split)
+test <- testing(strk_split)
+```
+
+## Cross fold analysis
+
+Cross fold analysis or validation is integral to fine tuning the machine learning process. Specifically it is a great way to determine how well the model will generalize to newer data. This works by splitting the training data into multiple folds or parts, where for different iterations of evaluation, each part gets a turn to become the validation set or the set that is going to act as the actual for the generated predictions.
+
+The cross fold object below will mainly be used to fine tune the selected model.
+```{r}
+# set random seed for reproducability
+set.seed(42)
+
+# create a CV object
+stroke_folds <- vfold_cv(train, strata = stroke)
+```
+
+## Recipe
+
+To start the process of building the model, a recipe is created that does the following:
+
+- classify between outcome and predictor variables
+- impute NAs by using the nearest neighbor method
+- binary code all non-ordered factorial predictors
+- numerically score the ordered factorial predictors
+- synthetically over sample the minority (positive cases of stroke) to resolve class imbalance.
+
+The metrics being used to evaluate model performance will also be assigned.
+```{r}
+# recipe creation
+stroke_recipe <- recipe(stroke ~ 
+                          age_group + 
+                          bmi_group + 
+                          glucose_group + 
+                          hypertension + 
+                          heart_disease, 
+                        data = clean_strk) |> 
+  step_impute_knn(all_predictors()) |> 
+  step_dummy(all_unordered_predictors()) |> 
+  step_ordinalscore(all_ordered_predictors()) |> 
+  step_smote(stroke)
+
+# Specify desired metrics
+stroke_metrics <- metric_set(roc_auc, accuracy, sensitivity, specificity)
+```
+
+## Workflow
+
+Next the recipe is passed to a workflow to allow for the addition of different models and fits.
+```{r}
+# add recipe to workflow
+stroke_workflow <- workflow() |> 
+  add_recipe(stroke_recipe)
+```
+
+## Model Creation and Evaluation {.tabset}
+
+The classification models that are going to be used for this task include:
+
+### Logistic Regression
+
+#### Model Creation
+
+This step assigns to an object: 
+
+- the specific model for computation
+- the engine R will run the model through
+- the specific machine learning task (classification) that the model will perform
+```{r}
+# logistic regression model
+lr_model <- 
+  logistic_reg() |> 
+  set_engine("glm") |> 
+  set_mode("classification")
+```
+
+#### Fitting the training data
+
+This step adds the classification model that was created above to the previously created workflow. This model + wokflow is then fit to the training data that has been preped for cross validation. This fit is evaluated based on desired metrics (accuracy, sensitivity, specificity, roc_auc).
+```{r}
+# logistic regression model
+lr_rs <- stroke_workflow|> 
+  add_model(lr_model) |> 
+  fit_resamples(
+    resamples = stroke_folds,
+    metrics = stroke_metrics,
+    control = control_resamples(save_pred = TRUE)
+  )
+```
+
+#### Evaluating the training data
+
+This step collects the performance metrics from the fit conducted above.
+```{r}
+lr_metric <- collect_metrics(lr_rs)
+lr_metric
+
+collect_predictions(lr_rs) |> 
+  conf_mat(truth = stroke, estimate = .pred_class)
+```
+
+**Observation:** The logistic regression model yielded:
+
+- an average accuracy of `r lr_metric[1,3]`
+- an average roc_auc of `r lr_metric[2,3]`
+- an average sensitivity of `r lr_metric[3,3]`
+- an average specificity of `r lr_metric[4,3]`
+
+### Random forest
+
+#### Model Creation
+
+This step assigns to an object: 
+
+- the specific model for computation
+- the engine R will run the model through
+- the specific machine learning task (classification) that the model will perform
+```{r}
+# Random forest
+rf_model <-
+  rand_forest() |> 
+  set_engine("randomForest") |> 
+  set_mode("classification")
+```
+
+#### Fitting the training data
+
+This step adds the classification model that was created above to the previously created workflow. This model + wokflow is then fit to the training data that has been preped for cross validation. This fit is evaluated based on desired metrics (accuracy, sensitivity, specificity, roc_auc).
+```{r}
+# logistic regression model
+rf_rs <- stroke_workflow|> 
+  add_model(rf_model) |> 
+  fit_resamples(
+    resamples = stroke_folds,
+    metrics = stroke_metrics,
+    control = control_resamples(save_pred = TRUE)
+  )
+```
+
+#### Evaluating the training data
+
+This step collects the performance metrics from the fit conducted above.
+```{r}
+rf_metric <- collect_metrics(rf_rs)
+rf_metric
+
+collect_predictions(rf_rs) |> 
+  conf_mat(truth = stroke, estimate = .pred_class)
+```
+**Observation:** The logistic regression model yielded:
+
+- an average accuracy of `r rf_metric[1,3]`
+- an average roc_auc of `r rf_metric[2,3]`
+- an average sensitivity of `r rf_metric[3,3]`
+- an average specificity of `r rf_metric[4,3]`
+
+### K-nearest neighbor 
+
+#### Model Creation
+
+This step assigns to an object: 
+
+- the specific model for computation
+- the engine R will run the model through
+- the specific machine learning task (classification) that the model will perform
+```{r}
+# kn
+kn_model <- nearest_neighbor() |>
+  set_engine("kknn") |> 
+  set_mode("classification")
+```
+
+#### Fitting the training data
+
+This step adds the classification model that was created above to the previously created workflow. This model + wokflow is then fit to the training data that has been preped for cross validation. This fit is evaluated based on desired metrics (accuracy, sensitivity, specificity, roc_auc).
+```{r}
+# logistic regression model
+kn_rs <- stroke_workflow|> 
+  add_model(kn_model) |> 
+  fit_resamples(
+    resamples = stroke_folds,
+    metrics = stroke_metrics,
+    control = control_resamples(save_pred = TRUE)
+  )
+```
+
+#### Evaluating the training data
+
+This step collects the performance metrics from the fit conducted above.
+```{r}
+kn_metric <- collect_metrics(kn_rs)
+kn_metric
+
+collect_predictions(kn_rs) |> 
+  conf_mat(truth = stroke, estimate = .pred_class)
+```
+**Observation:** The logistic regression model yielded:
+
+- an average accuracy of `r kn_metric[1,3]`
+- an average roc_auc of `r kn_metric[2,3]`
+- an average sensitivity of `r kn_metric[3,3]`
+- an average specificity of `r kn_metric[4,3]`
+
+### XGBoost
+
+#### Model Creation
+
+This step assigns to an object: 
+
+- the specific model for computation
+- the engine R will run the model through
+- the specific machine learning task (classification) that the model will perform
+```{r}
+# xg
+xg_model <- boost_tree() |>
+  set_engine("xgboost") |> 
+  set_mode("classification")
+```
+
+#### Fitting the training data
+
+This step adds the classification model that was created above to the previously created workflow. This model + wokflow is then fit to the training data that has been preped for cross validation. This fit is evaluated based on desired metrics (accuracy, sensitivity, specificity, roc_auc).
+```{r}
+# logistic regression model
+xg_rs <- stroke_workflow|> 
+  add_model(xg_model) |> 
+  fit_resamples(
+    resamples = stroke_folds,
+    metrics = stroke_metrics,
+    control = control_resamples(save_pred = TRUE)
+  )
+```
+
+#### Evaluating the training data
+
+This step collects the performance metrics from the fit conducted above.
+```{r}
+xg_metric <- collect_metrics(xg_rs)
+xg_metric
+
+collect_predictions(xg_rs) |> 
+  conf_mat(truth = stroke, estimate = .pred_class)
+```
+**Observation:** The logistic regression model yielded:
+
+- an average accuracy of `r xg_metric[1,3]`
+- an average roc_auc of `r xg_metric[2,3]`
+- an average sensitivity of `r xg_metric[3,3]`
+- an average specificity of `r xg_metric[4,3]`
+
+## Model Selection
+
+Based on the captured metrics, the random forest model seems to be the best overall. It had the second highest accuracy, roc_auc, and sensitivity; as well as the third highest specificity. 
+
+In the context of disease detection and prevention, sensitivity is being given the higher priority sense this would limit the potential number of false negative cases. Even though this is the case it is also beneficial to have a desirable specificity. It is for this reason why the K-nearest neighbors model was not chosen. Despite this model having the highest accuracy and sensitivity, its specificity was lack luster. This means that this model allows for an increase in false negatives to achieve impressive true positive rates. 
+
+## Model Fine-Tuning
+
+Now that the random forest model has been chosen, its parameters will now be adjusted to optimize its performance. The parameter being adjusted is metry (the number of randomly selected predictors).
+### Stating the desired parameters
+```{r}
+rf_grid <- expand.grid(mtry = c(3, 4, 5))
+```
+
+### Random Forest Model with flexible tuning
+
+A new random forest model is being created with a flexible set_args.
+```{r}
+rf_model_2 <- rand_forest() |> 
+  set_args(mtry = tune()) |> 
+  set_engine("ranger") |> 
+  set_mode("classification")
+```
+
+### Workflow
+
+The newly created model will now be added to the workflow.
+```{r}
+rf_workflow_2 <- workflow() |> 
+  add_recipe(stroke_recipe) |> 
+  add_model(rf_model_2) 
+```
+
+### Grid Search
+
+The workflow will now employ a grid search that will evaluate performance for each pre-recorded parameter.
+```{r}
+rf_tune <- rf_workflow_2 |> 
+  tune_grid(
+    resamples = stroke_folds,
+    grid = rf_grid,
+    metrics = stroke_metrics,
+    control = control_resamples(save_pred = TRUE)
+  )
+```
+
+### Parameter Evaluation
+
+The metrics were then collected across all the tested parameters, and the parameter that yeilded the highest sensitivity score was selected.
+```{r}
+# evaluation
+rf_tune |> 
+  collect_metrics()
+```
+
+```{r}
+# selection
+param_final <- rf_tune |> 
+  select_best(metric = "sensitivity")
+param_final
+```
+
+## Finalized Workflow
+
+The selected parameter was then used to finalize the workflow.
+```{r}
+rf_workflow_tuned <- finalize_workflow(rf_workflow_2, param_final)
+
+rf_workflow_tuned
+```
+
+## Fit to testing
+
+The finalized workflow was fit to the testing data and evaluated based on the previously designated metrics.
+```{r}
+rf_fit <- rf_workflow_tuned |> 
+  last_fit(split = strk_split,
+           metrics = stroke_metrics)
+```
+
+## Evaluate Testing
+
+The metrics were collected for final assessment.
+```{r}
+rf_fit_metric <- collect_metrics(rf_fit)
+rf_fit_metric
+
+collect_predictions(rf_fit) |> 
+  conf_mat(stroke, .pred_class)
+```
+**Observation:** The tuned random forest model yielded:
+
+- an accuracy of `r rf_fit_metric[1,3]`
+- a sensitivity of `r rf_fit_metric[2,3]`
+- a specificity of `r rf_fit_metric[3,3]`
+- a roc_auc of `r rf_fit_metric[4,3]`
+
+# Final Model
+
+The tuned random forest model was fitted to the whole data set for training to prepare for new data for prediction.
+```{r}
+final_model <- fit(rf_workflow_tuned, clean_strk)
+final_model
+```
+
+# Prediction based on new data
+
+The final model was used to predict whether a patient will have a stroke based on new data.
+```{r}
+# new data for fictional patient
+new_patient <- tribble(~age_group, ~bmi_group, ~glucose_group, ~hypertension, ~heart_disease,
+                     "76+", "overweight", "Prediabetic", "1", "0")
+
+# stroke prediction
+prediction <- predict(final_model, new_data = new_patient)
+prediction
+```
+
+**Observation:** Based on the new input data the model output was `r prediction[1]`.
+
+- 1 = stroke
+- 0 = no stroke
+
+# Findings and Conclusions
+
+The purpose of this machine learning project was to implement a model that could predict whether or not a patient is at risk of getting a stroke  based on features relating to the patient's medical history. The model created to serve this purpose was a Random Rorest Classifier that had an accuracy score of `r rf_fit_metric[1,3]`, a sensitivity score of `r rf_fit_metric[2,3]`, a specificity score of `r rf_fit_metric[3,3]`, and an roc auc score of `r rf_fit_metric[4,3]`.
+
+- an accuracy of `r rf_fit_metric[1,3]` indicates that the model was successful at predicting whether or not a patient would have a stroke `r round(rf_fit_metric[1,3], 3)*100`% of the time.
+
+- a specificity of `r rf_fit_metric[3,3]`  indicates that `r round(rf_fit_metric[3,3], 3)*100`% of the time when the model predicts a positive (having a stroke) the instance is a true positve. 
+
+- a specificity of `r rf_fit_metric[2,3]` indicates that `r round(rf_fit_metric[2,3], 3)*100`% of the time when something is positive, the model also predicts it to be positive.
+
+- An roc auc score of `r rf_fit_metric[4,3]` is the discrimination between positive and negative values. This score ranges from 0 to 1, where 0.5 indicates random guessing and 1 indicates perfect performance.
+
+Given all these metrics, the one that should be given more importance is the sensitivity score with a rather acceptable score of `r rf_fit_metric[2,3]`. This score should be looked at more heavily because its indicative that true positive cases (instances where a patient had a stroke) was picked up by the model to a higher degree, which for its application would mean that `r round(rf_fit_metric[2,3], 3)*100`% of patients at risk of having a stroke would be able to be detected as such by this model. This juxtaposed with an accuracy of `r round(rf_fit_metric[1,3], 3)*100`% makes this model acceptable for stroke prediction.
