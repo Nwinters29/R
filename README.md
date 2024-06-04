@@ -1,2 +1,2 @@
 # R
-List of R projects and code
+List of R projects and code.
