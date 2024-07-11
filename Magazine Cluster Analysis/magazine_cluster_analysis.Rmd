@@ -1,0 +1,447 @@
+---
+title: "Magazine Subscriber Cluster Analysis"
+author: "Nick Winters"
+date: "6/27/24"
+output:
+    html_document:
+     toc: true
+     toc_float: true
+---
+
+# I. Overview
+
+## Buisness Problem
+
+**How can a magazine company effectively target key demographics?**
+
+This business question is what led this cluster analysis on magazine subscriber data. The data genrated from this analysis could help the aforementioned magazine company better advertise to specific groups or even include more articles that are better suited to specific demographics and their needs.
+
+## The Dataset
+
+The dataset that was used for this cluster analysis was provided by the Eastern University course: "Data Science for Business". Below is a list of the attributes and their description as depicted in the dataset.
+
+- `age`: age of subscriber
+- `female`: 1 for yes (female); 0 for no (male) 
+- `Real.Estate.Purchases`: number of real estate purchases
+- `Value.of.Investments`: value of investments in US dollars
+- `Number.of.Transactions`: number of purchases made
+- `Graduate.Degree`: 1 for having a degree; 0 for not having a degree
+- `Household.Income`: income for each household in US dollars
+- `Have.Children`: 1 for yes; 0 for no
+
+## Specific Task
+
+Due to the mix of numerical and categorical data types within the data, the data was separated based on these types, and a distinct clustering technique was employed to generate groupings based on the data. Hierarchical was chosen for the categorical variables, and K-means was utilized for the continuous numerical variables. 
+
+# II. Get the Data
+
+## Load packages
+
+Below are the packages that were utilized to carry out this specific cluster analysis. The packages are in order of use and are broken up by which step in the process they were utilized.
+
+```{r, echo=TRUE, results='hide'}
+# Packages needed for data manipulation, visualization
+library(tidyverse)
+library(janitor)
+# Packages needed for clustering the data
+library(cluster)
+library(fpc)
+library(factoextra)
+```
+
+## Import the data
+
+The first step in this process was to import the data and assign it to an object for manipulation.
+```{r, echo=TRUE, results='hide'}
+# set working directory
+setwd("/Users/nickwinters/desktop/MSDS/DS for Buisness")
+
+# assign csv file to an object
+magdf <- read.csv("young_professional_magazine.csv")
+```
+
+# III. Data Exploration
+
+Before diving into the analysis, surface level exploration was conducted on the data. 
+
+## Taking a peak at the data
+
+First the general structure of the data was obtained by using the `head()` function. This allowed for "peaking the data" such that the variables and their data types could be visualized in a table format. 
+```{r}
+# display the first five rows
+head(magdf, 5)
+```
+
+## Generating Summary Statistics
+
+After getting a better sense for the structure of the data, summary statistics relating to the observations that make up the data were generated. For manipulation purposes and since the clustering methods require such, the data was seperated based on whether it was categorical or numerical.
+
+### Numerical Data
+
+Here, the mean and distribution of numerical observations were be calculated. These calculations (particularly the mean) were used for comparative purposes during the K-means cluster analysis. 
+```{r}
+# assign numerical variables to a new data frame
+mag_num <- magdf |> 
+  select(
+    Age,
+    Value.of.Investments,
+    Number.of.Transactions,
+    Household.Income
+  )
+
+# Generate summary statistics for each numerical variable
+summary(mag_num)
+```
+
+```{r}
+# age
+mag_num |> 
+  ggplot(aes(x=Age)) + 
+  geom_histogram(binwidth = 1)
+# value of investments
+mag_num |> 
+  ggplot(aes(x=Value.of.Investments)) + 
+  geom_histogram(binwidth = 5000)
+# number of transactions
+mag_num |> 
+  ggplot(aes(x=Number.of.Transactions)) + 
+  geom_histogram(binwidth = 1)
+# household income
+mag_num |> 
+  ggplot(aes(x=Household.Income)) + 
+  geom_histogram(binwidth = 5000)
+```
+
+**Observation:** 
+  
+  - Age: Ranged from 19 to 42 years of age; average was 30 years of age; normal distribution.
+  - Value of Investments: Ranged from 0 to 133,400 USD; average was $28,538; right skewed.
+  - Number of Transactions: Ranged from 0 to 21 transactions; average was ~6; a little right skewed.
+  - Household Income: Ranged from 16,200 to 322,500 USD; average was $74,560; right skewed.
+  
+### Categorical Data
+
+Here, the frequency of categorical observations was calculated. These frequencies will be used for comparative purposes during the hierarchial cluster analysis.
+```{r}
+# assign binary variables to new dataframe
+mag_bin <- magdf |> 
+  select(
+    Female,
+    Real.Estate.Purchases,
+    Graduate.Degree,
+    Have.Children
+  )
+
+#Calculate counts and proportions for each binary variable
+tabyl(mag_bin$Female)
+tabyl(mag_bin$Real.Estate.Purchases)
+tabyl(mag_bin$Graduate.Degree)
+tabyl(mag_bin$Have.Children)
+```
+
+**Observation:**
+
+  - Female: Slightly higher percentage are non-female subscribers.
+  - Real Estate Purchases: Slightly higher percentage do not have real estate purchases.
+  - Graduate Degree: Most hold a graduate degree.
+  - Have Children: Slightly higher percentage have children.
+
+# IV. Hierarchial Clustering
+
+**Overall Approach:**
+
+  1. Calculate similarity measures
+  2. Run clustering algorithm
+  3. Plot clusters using dendrogram
+  4. Analyze clusters
+  
+## 1. Matching Distance Calulation
+
+The first step to conducting a hierarchical cluster analysis is to, for this particular case, calculate the similarity measure between observations. Below the matching distance method was employed by specifically setting the method to "manhattan".
+```{r}
+# calculate distance between each pair of observations
+match_dist<-dist(mag_bin, method="manhattan")
+```
+
+## 2. Run Hierarchial clustering
+
+Once the data's similarity measurments have been calculated, the hclust function can now group the data into clusters based on similarity. The specific measure that was used to determine the dissimilarity between these generated clusters was the "average linkage" approach which takes the average distance between observations in one cluster with another cluster. 
+```{r}
+# use the hclust function and group average linkage
+match_avg<-hclust(match_dist, method="average")
+```
+
+## 3a. Dendrogram Plot
+
+Once the possible clusters have been generated, a dendrogram was used to visualize them. This generated plot was used to determine the best number of clusters for the data. 
+```{r}
+#plot the dendrogram
+plot(match_avg)
+```
+
+**Observation:** Based on the above dendrogram four clusters was determined to be ideal. 
+
+## 3b. Dendrogram Plot with 4 Clusters
+
+The four clusters that were chosen to represent the data were next superimposed onto the plot for better visualization.
+```{r}
+#Create 4 clusters using the cutree function
+match_avg_4<-cutree(match_avg, k=4)
+#plot the dendrogram
+plot(match_avg)
+#visualize clusters on the dendrogram
+rect.hclust(match_avg, k=4, border=2:4)
+```
+
+## 4. Analyze Hierarchial Clusters
+
+After the clusters were identified, they were then analyzed to extrapolate meaningful insights into subscriber segmentation. 
+
+### Subscriber Count by Cluster
+
+First, the number of subscribers that populated each cluster was identified. 
+```{r}
+# link cluster assignments to original categorical data frame
+hcl4<-cbind(mag_bin, clusterID=match_avg_4)
+
+# write data frame to CSV file to analyze in Excel
+# write.csv(hcl4df, "magazine_hier4_clusters.csv")
+
+hcl4 |> 
+  group_by(clusterID) |> 
+  summarize(n())
+```
+
+**Observation:** In descending order the population of each cluster goes by the following:
+
+  - cluster 1 (140 subscribers)
+  - cluster 2 (115 subscribers)
+  - cluster 4 (86 subscribers)
+  - cluster 3 (69 subscribers)
+
+### Subscriber Attributes Overall
+
+To better get an idea of the subscriber segmentation, the overall frequency was subscriber attributes was determined for comparative purposes.
+```{r}
+#attach value labels to binary variables
+hcl4$Female<-factor(hcl4$Female,levels=c(0,1),labels=c("no","yes"))
+hcl4$Real.Estate.Purchases<-factor(hcl4$Real.Estate.Purchases,levels=c(0,1),labels=c("No","Yes"))
+hcl4$Graduate.Degree<-factor(hcl4$Graduate.Degree,levels=c(0,1),labels=c("No","Yes"))
+hcl4$Have.Children<-factor(hcl4$Have.Children,levels=c(0,1),labels=c("No","Yes"))
+
+#Create frequency tables for each variable overall
+tabyl(hcl4$Female)
+tabyl(hcl4$Real.Estate.Purchases)
+tabyl(hcl4$Graduate.Degree)
+tabyl(hcl4$Have.Children)
+```
+### Subscriber Attributes by Cluster
+
+The frequencies of subscriber attributes were then determined to for each cluster to identify unique properties. 
+```{r}
+#Create frequency tables for each variable by cluster
+tabyl(hcl4,Female,clusterID) |> 
+  adorn_percentages("col") |> 
+  adorn_pct_formatting(digits=2) |> 
+  adorn_ns()
+
+tabyl(hcl4,Real.Estate.Purchases,clusterID) |> 
+  adorn_percentages("col") |> 
+  adorn_pct_formatting(digits=2) |> 
+  adorn_ns()
+
+tabyl(hcl4,Graduate.Degree,clusterID) |> 
+  adorn_percentages("col") |> 
+  adorn_pct_formatting(digits=2) |> 
+  adorn_ns()
+
+tabyl(hcl4,Have.Children,clusterID) |> 
+  adorn_percentages("col") |> 
+  adorn_pct_formatting(digits=2) |> 
+  adorn_ns()
+```
+
+**Interpretation of clusters:** 
+
+  - **Cluster 1:** Graduates with children.
+    - Equal proportion of genders.
+    - Average real estate purchases. 
+    - Exclusively have graduate degrees.
+    - Exclusively have children.
+    
+<br>
+
+  - **Cluster 2:** Subscribers with no children and no graduate degree.
+    - Predominately non-female.
+    - Average real estate purchases. 
+    - Exclusively do not have graduate degrees.
+    - Exclusively do not have children.
+    
+<br>
+
+  - **Cluster 3:** Female subscribers with no graduate degree.
+    - Exclusively female.
+    - Predominately do not have real estate purchases. 
+    - Exclusively do not have graduate degrees.
+    - Average in terms of having children.
+
+<br>
+
+  - **Cluster 4:** Non-female subscribers with a graduate degree and children.
+    - Exclusively male.
+    - Average real estate purchases. 
+    - Exclusively have graduate degrees.
+    - Exclusively have children.
+  
+# V. K-means Clustering
+
+**Overall Approach:**
+
+  1. Normalize/scale data
+  2. Calculate Within-cluster Sum of Squares
+  3. Generate an elbow plot
+  4. Run K-means algorithm
+  5. Generate a marked scatter plot to visualize clusters
+  6. Analyze Clusters
+
+## 1. Normalize Data
+
+In order to run a K-means analysis to determine the similarity among different observations, the data was first normalized by using z-scores. This was conducted due to varying ranges of the numerical observations and the varying measures involving different units.
+```{r}
+# use the scale() function to normalize the data
+mag_scaled<-scale(mag_num)
+head(mag_scaled)
+```
+## 2. WSS and K Values for Elbow Plot 
+
+Two metrics were obtained in order to construct an elbow plot. These metrics are:
+
+  - **Within Cluster Sum of Squares:** The squared average distance of all the points within a cluster to the cluster centroid.
+  - **K value:** The number of clusters the algorithm groups the data into.
+  
+```{r}
+# set random number seed in order to replicate the analysis
+set.seed(42)
+
+# calculate total within-cluster sum of squared deviations 
+wss<-function(k){kmeans(mag_scaled, k, nstart=10)} $tot.withinss
+
+# range of k values for elbow plot
+k_values<- 1:10
+
+# run the function to create the range of values for the elbow plot
+wss_values<-map_dbl(k_values, wss)
+
+#create a new data frame containing both k_values and wss_values
+elbowdf<- data.frame(k_values, wss_values)
+```
+
+## 3. Elbow Plot
+
+An elbow plot was constructed to determine what number of clusters better fit the data.
+```{r}
+#create a new data frame containing both k_values and wss_values
+elbowdf<- data.frame(k_values, wss_values)
+
+#graph the elbow plot
+ggplot(elbowdf, mapping = aes(x = k_values, y = wss_values)) +
+  geom_line() + geom_point()
+```
+
+**Observation:** A noticeable bend is present at around 4 to 5 clusters. Given the small size of the data and the fact that four clusters was used for the hierarchial analysis, four was chosen for the optimal number of clusters for K-means.
+
+## 4. Run K-means Clustering
+
+The K-means algorithm was deployed to segment the data into four clusters
+```{r}
+# run k-means clustering with 4 clusters (k=4) and 1000 random restarts
+k4<-kmeans(mag_scaled, 4, nstart=1000)
+```
+
+## 5. Visualize Clusters
+
+To visualize the clusters, the `fviz_cluster()` function was used to generate a scatter plot that marks the points based on cluster identity.
+```{r}
+# generate plot using the k4 object on the scaled data
+fviz_cluster(k4, data = mag_scaled, geom = "point", ellipse.type = "convex")
+```
+
+**Observation:** All 4 clusters have a general overlap with each other. This makes sense given that subscribers likely share some attributes given their interest in subscribing to a specific magazine. 
+
+## 6. Analyze K-mean Clusters
+
+After the clusters were identified, they were then analyzed to extrapolate meaningful insights into subscriber segmentation.
+
+### Cluster Statitics
+
+The `cluster.stats()` function was used to detail the structure of the clusters. The key metrics that were used for analysis were `cluster.size`, `average.distance`, and `ave.between.matrix`.
+```{r}
+# display cluster statistics
+cluster.stats(dist(mag_scaled, method="euclidean"), k4$cluster)
+```
+
+**Observation:** 
+
+  - Cluster 3 is the most densely populated cluster out of the 4 (smallest Average Within Cluster Distance), and is the cluster that has the highest subscriber count.
+  - Cluster 1 is the least densely populated.
+  - Cluster 2 has the lowest subscriber count.
+  - All clusters were determined to be distinct entities by using the "between-cluster distance/average within cluster distance" ratio (>1 indicates that a cluster is distinct).
+
+### Cluster Attributes 
+
+The cluster identity for each observation was bound to the numeric dataframe, and then each attribute was summarized for each cluster to determine the cluster unique compositon.
+```{r}
+# combining each observation's cluster assignment with unscaled data frame
+mag_k4 <- cbind(mag_num, clusterID=k4$cluster)
+head(mag_k4)
+
+# write data frame to CSV file to analyze in Excel
+# write.csv(quantdfk4, "magazine_kmeans_4clusters.csv")
+```
+
+```{r}
+#Calculate variable averages for each cluster
+mag_k4 |> 
+  group_by(clusterID) |> 
+  summarize_all(mean)
+```
+
+**Interpretation of Clusters:**
+
+  - **Cluster 1:** Individuals who are avid investors. To capital on this demographic the magazine could advertise or make more articles relating to investment opportunities such as up and coming businesses or properties.
+    - Average age for subscribers
+    - Lowest subscriber count
+    - Highest value in investments
+    - Highest transaction count
+    - Second highest income per household
+
+<br>
+
+  - **Cluster 2:** Individuals who are very conservative investors. To capitalize on this demographic the magazine could advertise or make more articles relating to more conservative investment opportunities such as index funds.
+    - Average age for subscribers
+    - Second lowest subscriber count
+    - Average value in investments
+    - Average transaction count
+    - Highest income per household
+
+<br>
+
+  - **Cluster 3:** Individuals who are less resourced  but interest in investments. To capitalize on this demographic the magazine could advertise or make more articles relating to starting and growing an investment portfolio.
+    - Average age for subscribers
+    - Highest subscriber count
+    - Lowest value in investments
+    - Lowest transaction count
+    - Lower than average income per household
+
+<br>
+
+  - **Cluster 4:** Individuals who are in the early phases of growing an investment portfolio. To capitalize on this demographic the magazine could advertise or make more articles relating to growing an investment portfolio for young individuals.
+    - Youngest age for subscribers
+    - Second highest subscriber count
+    - Second lowest value in investments
+    - Average transaction count
+    - Lower than average income per household
+  
+# VI. Conclusion
+
+This analysis successfully segmented the magazine subscriber base into unique demographics based on both hierarchical and K-means clustering. These generated clusters can now be used to either capitalize on the the largest demographics present or help bolster the subscriber counts of lesser represented demographics. 
