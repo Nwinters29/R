@@ -49,11 +49,15 @@ This is an end-to-end machine learning project that aims to predict the stroke r
 
 Includes:
 + R file of the ML project
++ R file of an RShiny app for model deployment
++ md file for app description
 + Rmd file detailing the whole end-to-end ML project
 + 2 csv files of the data at varying steps in the ML project (raw data was obtained from [kaggle](https://www.kaggle.com/datasets/godfatherfigure/healthcare-dataset-stroke-data))
 + rds file of the final model
 
 **Full interactive notebook can be seen on [RPubs](https://rpubs.com/Nwinters29/StrokePredictor)**
+
+**Full interactive web app can be seen on [shinyapps.io](https://nwinters.shinyapps.io/app_strokePredictor/)**
 
 ## Time Series Analysis
 This project aims to utilize various types of regression to forecast future values in a time series analysis relating to Starbuck's revenue, New York Times' revenue, Whole Foods revenue, and LinkedIn memberships. 
