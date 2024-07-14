@@ -32,7 +32,7 @@ Next the working directory was set in order to retrieve the data files.
 
 ```{r}
 #set working directory
-setwd("/Users/nickwinters/desktop/MSDS/DS for Buisness")
+setwd("/Users/nickwinters/desktop/DS Projects/R/TimeSeriesAnalysis")
 ```
 
 ## Metrics for Evaluations
@@ -116,8 +116,11 @@ ggplot(data = starbucksdf, mapping = aes(x = Year, y = NetRevenue)) +
 To help simplify the model, instead of using the year as the predictor variable (due to its datatype being an integer) a new column was created that expresses each year as representative number. 
 
 ```{r}
+# Add column of values representing the true revenue
+starbucksdf$TrueRevenue <- (starbucksdf$NetRevenue) * 10^9
 # Add a column of consecutive numbers
-starbucksdf$Time <- 1:nrow(starbucksdf) 
+starbucksdf$Time <- 1:nrow(starbucksdf)
+# view changes
 head(starbucksdf)
 ```
 
@@ -201,13 +204,15 @@ ggplot(data = nytdf, mapping = aes(x = Quarter, y = Revenue)) +
 
 To implement regression in this scenario, first binary variables were created to represent each quarter.
 ```{r}
+# add column to represent the true revenue value
+nytdf$TrueRevenue <- nytdf$Revenue * 10^6
 # dummy variables corresponding to each quarter were created
 nytdf$Q1 <- ifelse(grepl("Q1",nytdf$Quarter), 1, 0)
 nytdf$Q2 <- ifelse(grepl("Q2",nytdf$Quarter), 1, 0)
 nytdf$Q3 <- ifelse(grepl("Q3",nytdf$Quarter), 1, 0)
 nytdf$Q4 <- ifelse(grepl("Q4",nytdf$Quarter), 1, 0)
 # check newly manipulated variable
-nytdf
+head(nytdf)
 ```
 
 ### Create a Multiple Regression Model
@@ -273,6 +278,9 @@ ggplot(data = wfdf, mapping = aes(x = Quarter, y = Net.Sales)) +
 
 To implement regression in this scenario, first a new column was added to represent each year and the binary variables were created to represent each quarter.
 ```{r}
+# add column of values representing the true sales value
+wfdf$True.Sales <- wfdf$Net.Sales * 10^6
+
 # add column of consecutive numbers for each year
 wfdf$Time <- 1:nrow(wfdf) 
 
@@ -283,7 +291,7 @@ wfdf$Q3 <- ifelse(grepl("Q3",wfdf$Quarter), 1, 0)
 wfdf$Q4 <- ifelse(grepl("Q4",wfdf$Quarter), 1, 0)
 
 # veiw manipulated df
-wfdf
+head(wfdf)
 ```
 
 ### Linear Regression Model 
